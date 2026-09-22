@@ -29,20 +29,28 @@
           This was mostly to explore different types of Bootstrap components
           without just repeating what the component is.
         </p>
-        <div class="alert alert-info alert-dismissible fade show">
-          <button
-            type="button"
-            class="btn-close"
-            data-bs-dismiss="alert"
-          ></button>
-          <strong>Info!</strong> All information is referenced from the
-          <a href="https://en.wikipedia.org/wiki/Corydoras" target="_blank"
-            >Wikipedia page</a
-          >
-          for Corydoras.
-        </div>
       </div>
-
+      <figure class="figure text-center mx-auto d-block">
+        <img
+          src="images/corydoradrawing1.png"
+          class="figure-img img-fluid rounded mx-auto d-block"
+          alt="A drawing of a Corydora Catfish saying: Hello, I am Corydora!"
+        />
+        <figcaption class="figure-caption">Drawing by Orion Nguyen.</figcaption>
+      </figure>
+      <!-- Alert-->
+      <div class="alert alert-info alert-dismissible fade show my-2">
+        <button
+          type="button"
+          class="btn-close"
+          data-bs-dismiss="alert"
+        ></button>
+        <strong>Info!</strong> All information is referenced from the
+        <a href="https://en.wikipedia.org/wiki/Corydoras" target="_blank"
+          >Wikipedia page</a
+        >
+        for Corydoras.
+      </div>
       <!-- Exploring Bootstrap components -->
 
       <div class="card my-2">
@@ -83,11 +91,34 @@
               data-bs-parent="#accordionFlushExample"
             >
               <div class="accordion-body">
-                Bronze Corydoras are one of the most common types of Corydoras
-                in the aquarium hobby. They are one of the larger species of
-                Corydoras, most reaching upwards of 3 inches as full grown
-                adults. They have a distinctive bronze coloration and some can
-                have a greenish iridescence.
+                <figure class="figure text-center mx-auto d-block">
+                  <img
+                    src="images/bronzecorydora.jpg"
+                    class="figure-img img-fluid rounded"
+                    alt="A Bronze Corydoras fish."
+                  />
+                  <figcaption class="figure-caption">
+                    “<a
+                      href="https://www.flickr.com/photos/7718908@N04/3863369616"
+                      title="corydoras aeneus - bronze catfish"
+                      >corydoras aeneus - bronze catfish</a
+                    >” by
+                    <a href="https://www.flickr.com/photos/7718908@N04/">h080</a
+                    >,
+                    <a
+                      href="https://creativecommons.org/licenses/by-sa/2.0/deed.en"
+                      rel="license noopener noreferrer"
+                      >CC BY-SA 2.0</a
+                    >
+                  </figcaption>
+                </figure>
+                <p>
+                  Bronze Corydoras are one of the most common types of Corydoras
+                  in the aquarium hobby. They are one of the larger species of
+                  Corydoras, most reaching upwards of 3 inches as full grown
+                  adults. They have a distinctive bronze coloration and some can
+                  have a greenish iridescence.
+                </p>
               </div>
             </div>
           </div>
@@ -111,10 +142,13 @@
               data-bs-parent="#accordionFlushExample"
             >
               <div class="accordion-body">
-                Placeholder content for this accordion, which is intended to
-                demonstrate the <code>.accordion-flush</code> class. This is the
-                second item’s accordion body. Let’s imagine this being filled
-                with some actual content.
+                <p>
+                  Albino Corydoras are actually not a seperate species of
+                  Corydoras, but rather a color mutation of an existing Corydora
+                  species. Most albino Corydoras are mutations of Bronze
+                  Corydoras, but Albino Peppered Corydoras are also common
+                  within the trade.
+                </p>
               </div>
             </div>
           </div>
@@ -138,12 +172,10 @@
               data-bs-parent="#accordionFlushExample"
             >
               <div class="accordion-body">
-                Placeholder content for this accordion, which is intended to
-                demonstrate the <code>.accordion-flush</code> class. This is the
-                third item’s accordion body. Nothing more exciting happening
-                here in terms of content, but just filling up the space to make
-                it look, at least at first glance, a bit more representative of
-                how this would look in a real-world application.
+                Peppered Corydoras are a smaller species of Corydoras, most only
+                being around 2 inches as adults. They are known for their
+                distinctive peppered coloration, the black and white peppering
+                on their scutes sometimes looking sparkly under different light.
               </div>
             </div>
           </div>
@@ -167,9 +199,10 @@
               data-bs-parent="#accordionFlushExample"
             >
               <div class="accordion-body">
-                Placeholder content for this accordion, which is intended to
-                demonstrate the <code>.accordion-flush</code> class. This is the
-                first item’s accordion body.
+                Panda Corydoras are another small species of Corydoras, being
+                around the same size as Peppered Corydoras. They are known for
+                their distinctive black and white coloration, giving them a
+                similar appearance to a panda.
               </div>
             </div>
           </div>
@@ -193,9 +226,11 @@
               data-bs-parent="#accordionFlushExample"
             >
               <div class="accordion-body">
-                Placeholder content for this accordion, which is intended to
-                demonstrate the <code>.accordion-flush</code> class. This is the
-                first item’s accordion body.
+                Sterbas Corydoras are a medium-sized species of Corydoras,
+                typically reaching about 3 inches in length. They are known for
+                their elongated body shape and distinctive coloration, which
+                includes a dark lateral line and spotted patterns on their
+                scales.
               </div>
             </div>
           </div>
@@ -265,7 +300,7 @@
                 alt="Panda Corydora Fry"
                 class="rounded mx-auto d-block img-fluid"
                 style="
-                  object-fit: contain;
+                  object-fit: fill;
                   max-height: 683px;
                   width: auto;
                   height: auto;
@@ -281,7 +316,7 @@
                 src="images/corydoralifecycle.png"
                 alt="Corydora Life Cycle"
                 class="rounded mx-auto d-block img-fluid"
-                style="object-fit: contain; width: auto; height: 683px"
+                style="object-fit: fill; width: auto; height: 683px"
               />
             </div>
           </div>
